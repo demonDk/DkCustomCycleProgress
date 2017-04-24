@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFC07A621EA8AF0A006B5E8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC07A611EA8AF0A006B5E8A /* main.m */; };
+		FFC07A651EA8AF0A006B5E8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC07A641EA8AF0A006B5E8A /* AppDelegate.m */; };
+		FFC07A681EA8AF0A006B5E8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC07A671EA8AF0A006B5E8A /* ViewController.m */; };
+		FFC07A6B1EA8AF0A006B5E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC07A691EA8AF0A006B5E8A /* Main.storyboard */; };
+		FFC07A6D1EA8AF0A006B5E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC07A6C1EA8AF0A006B5E8A /* Assets.xcassets */; };
+		FFC07A701EA8AF0A006B5E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFC07A6E1EA8AF0A006B5E8A /* LaunchScreen.storyboard */; };
+		FFC07A7B1EA8AF0A006B5E8A /* dkCustomCycleProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC07A7A1EA8AF0A006B5E8A /* dkCustomCycleProgressTests.m */; };
+		FFC07A861EA8AF0A006B5E8A /* dkCustomCycleProgressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC07A851EA8AF0A006B5E8A /* dkCustomCycleProgressUITests.m */; };
+		FFC07A9B1EA8AFD2006B5E8A /* DkCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC07A9A1EA8AFD2006B5E8A /* DkCycleView.m */; };
+		FFDA13301EADE1FC0037AAA9 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDA132F1EADE1FC0037AAA9 /* UICountingLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFC07A771EA8AF0A006B5E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFC07A551EA8AF0A006B5E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFC07A5C1EA8AF0A006B5E8A;
+			remoteInfo = dkCustomCycleProgress;
+		};
+		FFC07A821EA8AF0A006B5E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFC07A551EA8AF0A006B5E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFC07A5C1EA8AF0A006B5E8A;
+			remoteInfo = dkCustomCycleProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFC07A5D1EA8AF0A006B5E8A /* dkCustomCycleProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dkCustomCycleProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC07A611EA8AF0A006B5E8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFC07A631EA8AF0A006B5E8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FFC07A641EA8AF0A006B5E8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FFC07A661EA8AF0A006B5E8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FFC07A671EA8AF0A006B5E8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FFC07A6A1EA8AF0A006B5E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFC07A6C1EA8AF0A006B5E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFC07A6F1EA8AF0A006B5E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFC07A711EA8AF0A006B5E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC07A761EA8AF0A006B5E8A /* dkCustomCycleProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dkCustomCycleProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC07A7A1EA8AF0A006B5E8A /* dkCustomCycleProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dkCustomCycleProgressTests.m; sourceTree = "<group>"; };
+		FFC07A7C1EA8AF0A006B5E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC07A811EA8AF0A006B5E8A /* dkCustomCycleProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dkCustomCycleProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFC07A851EA8AF0A006B5E8A /* dkCustomCycleProgressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dkCustomCycleProgressUITests.m; sourceTree = "<group>"; };
+		FFC07A871EA8AF0A006B5E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC07A991EA8AFD2006B5E8A /* DkCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DkCycleView.h; sourceTree = "<group>"; };
+		FFC07A9A1EA8AFD2006B5E8A /* DkCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DkCycleView.m; sourceTree = "<group>"; };
+		FFDA132E1EADE1FC0037AAA9 /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		FFDA132F1EADE1FC0037AAA9 /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFC07A5A1EA8AF0A006B5E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC07A731EA8AF0A006B5E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC07A7E1EA8AF0A006B5E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFC07A541EA8AF0A006B5E8A = {
+			isa = PBXGroup;
+			children = (
+				FFC07A5F1EA8AF0A006B5E8A /* dkCustomCycleProgress */,
+				FFC07A791EA8AF0A006B5E8A /* dkCustomCycleProgressTests */,
+				FFC07A841EA8AF0A006B5E8A /* dkCustomCycleProgressUITests */,
+				FFC07A5E1EA8AF0A006B5E8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFC07A5E1EA8AF0A006B5E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFC07A5D1EA8AF0A006B5E8A /* dkCustomCycleProgress.app */,
+				FFC07A761EA8AF0A006B5E8A /* dkCustomCycleProgressTests.xctest */,
+				FFC07A811EA8AF0A006B5E8A /* dkCustomCycleProgressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFC07A5F1EA8AF0A006B5E8A /* dkCustomCycleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				FFC07A631EA8AF0A006B5E8A /* AppDelegate.h */,
+				FFC07A641EA8AF0A006B5E8A /* AppDelegate.m */,
+				FFDA132E1EADE1FC0037AAA9 /* UICountingLabel.h */,
+				FFDA132F1EADE1FC0037AAA9 /* UICountingLabel.m */,
+				FFC07A661EA8AF0A006B5E8A /* ViewController.h */,
+				FFC07A671EA8AF0A006B5E8A /* ViewController.m */,
+				FFC07A691EA8AF0A006B5E8A /* Main.storyboard */,
+				FFC07A6C1EA8AF0A006B5E8A /* Assets.xcassets */,
+				FFC07A6E1EA8AF0A006B5E8A /* LaunchScreen.storyboard */,
+				FFC07A711EA8AF0A006B5E8A /* Info.plist */,
+				FFC07A601EA8AF0A006B5E8A /* Supporting Files */,
+				FFC07A991EA8AFD2006B5E8A /* DkCycleView.h */,
+				FFC07A9A1EA8AFD2006B5E8A /* DkCycleView.m */,
+			);
+			path = dkCustomCycleProgress;
+			sourceTree = "<group>";
+		};
+		FFC07A601EA8AF0A006B5E8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFC07A611EA8AF0A006B5E8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFC07A791EA8AF0A006B5E8A /* dkCustomCycleProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFC07A7A1EA8AF0A006B5E8A /* dkCustomCycleProgressTests.m */,
+				FFC07A7C1EA8AF0A006B5E8A /* Info.plist */,
+			);
+			path = dkCustomCycleProgressTests;
+			sourceTree = "<group>";
+		};
+		FFC07A841EA8AF0A006B5E8A /* dkCustomCycleProgressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFC07A851EA8AF0A006B5E8A /* dkCustomCycleProgressUITests.m */,
+				FFC07A871EA8AF0A006B5E8A /* Info.plist */,
+			);
+			path = dkCustomCycleProgressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFC07A5C1EA8AF0A006B5E8A /* dkCustomCycleProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC07A8A1EA8AF0A006B5E8A /* Build configuration list for PBXNativeTarget "dkCustomCycleProgress" */;
+			buildPhases = (
+				FFC07A591EA8AF0A006B5E8A /* Sources */,
+				FFC07A5A1EA8AF0A006B5E8A /* Frameworks */,
+				FFC07A5B1EA8AF0A006B5E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dkCustomCycleProgress;
+			productName = dkCustomCycleProgress;
+			productReference = FFC07A5D1EA8AF0A006B5E8A /* dkCustomCycleProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFC07A751EA8AF0A006B5E8A /* dkCustomCycleProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC07A8D1EA8AF0A006B5E8A /* Build configuration list for PBXNativeTarget "dkCustomCycleProgressTests" */;
+			buildPhases = (
+				FFC07A721EA8AF0A006B5E8A /* Sources */,
+				FFC07A731EA8AF0A006B5E8A /* Frameworks */,
+				FFC07A741EA8AF0A006B5E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFC07A781EA8AF0A006B5E8A /* PBXTargetDependency */,
+			);
+			name = dkCustomCycleProgressTests;
+			productName = dkCustomCycleProgressTests;
+			productReference = FFC07A761EA8AF0A006B5E8A /* dkCustomCycleProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFC07A801EA8AF0A006B5E8A /* dkCustomCycleProgressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFC07A901EA8AF0A006B5E8A /* Build configuration list for PBXNativeTarget "dkCustomCycleProgressUITests" */;
+			buildPhases = (
+				FFC07A7D1EA8AF0A006B5E8A /* Sources */,
+				FFC07A7E1EA8AF0A006B5E8A /* Frameworks */,
+				FFC07A7F1EA8AF0A006B5E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFC07A831EA8AF0A006B5E8A /* PBXTargetDependency */,
+			);
+			name = dkCustomCycleProgressUITests;
+			productName = dkCustomCycleProgressUITests;
+			productReference = FFC07A811EA8AF0A006B5E8A /* dkCustomCycleProgressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFC07A551EA8AF0A006B5E8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "党坤";
+				TargetAttributes = {
+					FFC07A5C1EA8AF0A006B5E8A = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = Y4EZ9DYXN7;
+						ProvisioningStyle = Automatic;
+					};
+					FFC07A751EA8AF0A006B5E8A = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = Y4EZ9DYXN7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFC07A5C1EA8AF0A006B5E8A;
+					};
+					FFC07A801EA8AF0A006B5E8A = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = Y4EZ9DYXN7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFC07A5C1EA8AF0A006B5E8A;
+					};
+				};
+			};
+			buildConfigurationList = FFC07A581EA8AF0A006B5E8A /* Build configuration list for PBXProject "dkCustomCycleProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFC07A541EA8AF0A006B5E8A;
+			productRefGroup = FFC07A5E1EA8AF0A006B5E8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFC07A5C1EA8AF0A006B5E8A /* dkCustomCycleProgress */,
+				FFC07A751EA8AF0A006B5E8A /* dkCustomCycleProgressTests */,
+				FFC07A801EA8AF0A006B5E8A /* dkCustomCycleProgressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFC07A5B1EA8AF0A006B5E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC07A701EA8AF0A006B5E8A /* LaunchScreen.storyboard in Resources */,
+				FFC07A6D1EA8AF0A006B5E8A /* Assets.xcassets in Resources */,
+				FFC07A6B1EA8AF0A006B5E8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC07A741EA8AF0A006B5E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC07A7F1EA8AF0A006B5E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFC07A591EA8AF0A006B5E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC07A681EA8AF0A006B5E8A /* ViewController.m in Sources */,
+				FFC07A651EA8AF0A006B5E8A /* AppDelegate.m in Sources */,
+				FFDA13301EADE1FC0037AAA9 /* UICountingLabel.m in Sources */,
+				FFC07A9B1EA8AFD2006B5E8A /* DkCycleView.m in Sources */,
+				FFC07A621EA8AF0A006B5E8A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC07A721EA8AF0A006B5E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC07A7B1EA8AF0A006B5E8A /* dkCustomCycleProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC07A7D1EA8AF0A006B5E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFC07A861EA8AF0A006B5E8A /* dkCustomCycleProgressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFC07A781EA8AF0A006B5E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFC07A5C1EA8AF0A006B5E8A /* dkCustomCycleProgress */;
+			targetProxy = FFC07A771EA8AF0A006B5E8A /* PBXContainerItemProxy */;
+		};
+		FFC07A831EA8AF0A006B5E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFC07A5C1EA8AF0A006B5E8A /* dkCustomCycleProgress */;
+			targetProxy = FFC07A821EA8AF0A006B5E8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFC07A691EA8AF0A006B5E8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFC07A6A1EA8AF0A006B5E8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFC07A6E1EA8AF0A006B5E8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFC07A6F1EA8AF0A006B5E8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFC07A881EA8AF0A006B5E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFC07A891EA8AF0A006B5E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFC07A8B1EA8AF0A006B5E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y4EZ9DYXN7;
+				INFOPLIST_FILE = dkCustomCycleProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dk.dkCustomCycleProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFC07A8C1EA8AF0A006B5E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y4EZ9DYXN7;
+				INFOPLIST_FILE = dkCustomCycleProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dk.dkCustomCycleProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FFC07A8E1EA8AF0A006B5E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y4EZ9DYXN7;
+				INFOPLIST_FILE = dkCustomCycleProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dk.dkCustomCycleProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dkCustomCycleProgress.app/dkCustomCycleProgress";
+			};
+			name = Debug;
+		};
+		FFC07A8F1EA8AF0A006B5E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y4EZ9DYXN7;
+				INFOPLIST_FILE = dkCustomCycleProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dk.dkCustomCycleProgressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dkCustomCycleProgress.app/dkCustomCycleProgress";
+			};
+			name = Release;
+		};
+		FFC07A911EA8AF0A006B5E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y4EZ9DYXN7;
+				INFOPLIST_FILE = dkCustomCycleProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dk.dkCustomCycleProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dkCustomCycleProgress;
+			};
+			name = Debug;
+		};
+		FFC07A921EA8AF0A006B5E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y4EZ9DYXN7;
+				INFOPLIST_FILE = dkCustomCycleProgressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dk.dkCustomCycleProgressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = dkCustomCycleProgress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFC07A581EA8AF0A006B5E8A /* Build configuration list for PBXProject "dkCustomCycleProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC07A881EA8AF0A006B5E8A /* Debug */,
+				FFC07A891EA8AF0A006B5E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC07A8A1EA8AF0A006B5E8A /* Build configuration list for PBXNativeTarget "dkCustomCycleProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC07A8B1EA8AF0A006B5E8A /* Debug */,
+				FFC07A8C1EA8AF0A006B5E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC07A8D1EA8AF0A006B5E8A /* Build configuration list for PBXNativeTarget "dkCustomCycleProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC07A8E1EA8AF0A006B5E8A /* Debug */,
+				FFC07A8F1EA8AF0A006B5E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFC07A901EA8AF0A006B5E8A /* Build configuration list for PBXNativeTarget "dkCustomCycleProgressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC07A911EA8AF0A006B5E8A /* Debug */,
+				FFC07A921EA8AF0A006B5E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFC07A551EA8AF0A006B5E8A /* Project object */;
+}
